@@ -1,0 +1,18 @@
+//@import "compass/reset";
+@import "compass/utilities/sprites";
+
+// core
+@import "../vendor/bootstrap.min.css";
+@import "../vendor/AdminLTE.css";
+@import "../vendor/AdminLTEskins.css";
+@import "../vendor/plugins/iCheck/blue.css";
+@import "../vendor/plugins/jvector-map/jquery-jvectormap-1.2.2.css";
+@import "../vendor/plugins/datepicker/datepicker3.css";
+@import "../vendor/plugins/daterangepicker/daterangepicker-bs3.css";
+
+body {
+    background: #d2d6de;
+}
+
+@import "app/_main.scss";
+@import "app/_left-panel.scss";
